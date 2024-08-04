@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1467810160588-c86c0deb5d16?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.card{
+    background-color: rgb(89, 39, 136,0.7);
+    text-align: center;
+    padding-top: 35px;
+    height: 475px;
+    margin-top: 17px;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: space-between;
+    border-radius: 100px;
+}
+
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 35px;
+    background-color: rgb(47, 64, 219);
+    margin-top: 15px;
+    width: 50%;
+    margin: auto;
+    font-weight: bolder;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    border-style: solid;
+}
+
+h1:hover{
+    background-color: red;
+    transition: 0.5s ;
+    width: 300px;
+    height: 55px;
+    padding-top: 5px;
+}
+
+label{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: white;
+}
+
+input{
+    margin: 10px;
+    width: 85%;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#loginbut:hover{
+    background-color: rgba(20, 35, 172, 0.767);
+    color: white;
+    width: 180px;
+    height: 40px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+#quitbut:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 180px;
+    height: 40px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+.links li{
+    display: inline;
+    align-items: center;
+    padding-right:35px;
+    padding-left: 35px;
+    font-size: larger;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.card img:hover{
+    border-style: solid;
+}
+
+footer{
+    background-color: darkslategray;
+    font-size: 15px;
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    padding-top: 16px;
+    padding-left: 15px;
+    font-style: italic;
+}
+footer li{
+    text-align: center;
+    padding-right: 10px;
+
+}
